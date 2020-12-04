@@ -1,0 +1,12 @@
+name = "peertube-viewer.com theme"
+license = "MIT"
+
+[author]
+    name = "Sosthène Guédon"
+    homepage = "https://peertube-viewer.com"
+
+# Frankensteined out of Beautiful Hugo
+[original]
+    name = "halogenica"
+    homepage = "http://halogenica.net"
+

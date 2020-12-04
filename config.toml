@@ -1,0 +1,50 @@
+baseurl = "https://peertube-viewer.com"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+title = "Peertube Viewer"
+
+DefaultContentLanguage = "en"
+theme = "peertube-viewer.com"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+
+[Params]
+  subtitle = "Lightweight cli browser for Peertube"
+  logo = "peertube-logo.svg"
+  favicon = "peertube-logo.svg"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  rssContent = "posts"
+  comments = true
+
+[Author]
+  name = "Guédon Sosthène"
+  gitlab = "peertube-viewer"
+  mail = "dev@peertube.com"
+
+
+[[menu.main]]
+    name = "News"
+    url = "/posts"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Download"
+    url = "/download"
+    weight = 3
+
+[[menu.main]]
+    name = "Documentation"
+    url = "https://docs.peertube-viewer.com"
+    weight = 4
+
+[markup.goldmark.renderer]
+  unsafe= true

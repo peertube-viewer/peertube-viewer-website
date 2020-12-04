@@ -1,0 +1,11 @@
+[[social_icons]]
+id = "gitlab"
+url = "https://gitlab.com/%s"
+title = "GitLab"
+icon = "fab fa-gitlab"
+
+[[social_icons]]
+id = "mail"
+url = "mailto:%s"
+title = "Mail"
+icon = "fas fa-envelope"

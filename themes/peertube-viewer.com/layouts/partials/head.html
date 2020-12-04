@@ -1,0 +1,33 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!-- Site Title, Description, Author, and Favicon -->
+{{- with .Title | default .Site.Title }}
+  <title>{{ . }}</title>
+  <meta property="og:title" content="{{ . }}" />
+{{- end }}
+{{- with .Description | default .Params.subtitle | default .Summary }}
+  <meta name="description" content="{{ . }}">
+  <meta property="og:description" content="{{ . }}">
+{{- end }}
+  <meta name="author" content="{{ .Site.Author.name }}"/>
+{{- with .Site.Params.favicon }}
+  <link href='{{ . | relURL }}' rel='icon' type='image/x-icon'/>
+{{- end -}}
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="{{ .Site.Title }}" />
+
+<!-- Links and stylesheets -->
+  <link rel="canonical" href="{{ .Permalink}}" />
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="stylesheet" href="/css/fontAwesome.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/pygment_highlights.css"/>
+  <link rel="stylesheet" href="/css/comfortaa.css"/>
+  <link rel="stylesheet" href="/css/open-sans.css"/>
+  <link rel="stylesheet" href="/css/highlight.min.css"/>
+  <link rel="stylesheet" href="/css/main.css" />
+{{- partial "head_custom.html" . }}
+</head>

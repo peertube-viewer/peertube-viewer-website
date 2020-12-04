@@ -1,0 +1,33 @@
+<nav class="navbar navbar-default navbar-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">
+        <span>{{ .Site.Title }}</span>
+      </a>
+        {{ if isset .Site.Params "logo" }}
+        <img class="navbar-brand-logo" src="{{ $.Site.Params.logo | relURL }}" alt="{{ $.Site.Title }}" width="20"/>
+        {{ end }}
+    </div>
+
+    <ul class="nav navbar-nav navbar-right">
+      {{ range .Site.Menus.main.ByWeight }}
+        {{ if .HasChildren }}
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">{{ .Name }}</a>
+            <div class="navlinks-children">
+              {{ range .Children }}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </li>
+        {{ else }}
+          <li>
+            <a title="{{ .Name }}" href="{{ .URL }}">
+                {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</nav>
