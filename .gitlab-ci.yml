@@ -13,6 +13,7 @@ test:
 pages:
   script:
   - hugo
+  - find public -type f -exec gzip -9 -f -k {} \;
   artifacts:
     paths:
     - public
