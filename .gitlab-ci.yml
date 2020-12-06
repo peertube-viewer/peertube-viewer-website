@@ -1,9 +1,6 @@
 # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
 image: registry.gitlab.com/pages/hugo:latest
 
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
-
 test:
   script:
   - hugo
@@ -11,9 +8,13 @@ test:
   - master
 
 pages:
+  variables:
+    COMPRESS_REGEX: '.*\.\(htm\|html\|txt\|text\|js\|css\|xml\|svg\|ttf\)$'
   script:
   - hugo
-  - find public -type f -exec gzip -9 -f -k {} \;
+  - apk add brotli
+  - find public -type f -regex "$COMPRESS_REGEX" -exec gzip -9 -f -k {} \;
+  - find public -type f -regex "$COMPRESS_REGEX" -exec brotli -9 -f -k {} \;
   artifacts:
     paths:
     - public
