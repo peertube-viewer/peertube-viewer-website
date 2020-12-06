@@ -17,8 +17,10 @@
             <td><a href="{{ $.Site.Params.gitlabLink}}/-/releases/v{{ .version }}">{{ .version }}</a></td>
             <td>{{ dateFormat "Jan 2, 2006" .releaseDate }}</td>
             <td>
-              <a href="{{ $.Site.Params.gitlabLink}}/-/archive/v{{ .version }}/peertube-viewer-rs{{ .version }}.tar.gz">Source</a>
-              <a href="/releases/linux/peertube-viewer-rs-v{{ .version }}.tar.gz">Linux binary</a>
+              <ul>
+                <li><a href="/releases/linux/peertube-viewer-rs-v{{ .version }}.tar.gz">Linux binary</a></li>
+                <li><a href="{{ $.Site.Params.gitlabLink}}/-/tree/v{{ .version }}">Source Code</a></li>
+              </ul>
             </td>
             <td><a href="https://docs.peertube-viewer.com/changelog.html#{{ .versionNoDot }}">Changelog</a></td>
           </tr>

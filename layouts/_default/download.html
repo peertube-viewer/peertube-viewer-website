@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <div role="main" class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {{ with .Content }}
+          <div class="well">
+            {{.}}
+            {{ with index $.Site.Data.releases.releases 0 }}
+            <h2>Latest release: {{ .version }}</h2>
+            Release date: {{ dateFormat $.Site.Params.dateFormat .releaseDate }}
+            <ul>
+              <li><a href="/releases/linux/peertube-viewer-rs-v{{ .version }}.tar.gz">Linux binary</a></li>
+              <li><a href="{{ $.Site.Params.gitlabLink}}/-/tree/v{{ .version }}">Source Code</a></li>
+            </ul>
+            {{ end }}
+            <div class="text-center">
+              <a class="btn btn-primary btn-lg" href="/releases">Older releases</a>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
+
