@@ -18,6 +18,7 @@ pygmentCodeFences = true
   commit = false
   rss = true
   rssContent = "posts"
+  gitlabLink = "https://gitlab.com/peertube-viewer/peertube-viewer-rs"
   comments = true
 
 [Author]

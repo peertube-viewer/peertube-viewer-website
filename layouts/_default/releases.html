@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <table class="table table-responsive">
+        <thead>
+          <tr>
+            <th>Version</th>
+            <th>Release date</th>
+            <th>Downloads</th>
+            <th>Changelog</th>
+          </tr>
+        </thead>
+        <tbody>
+        {{ range .Site.Data.releases.releases}}
+          <tr>
+            <td><a href="{{ $.Site.Params.gitlabLink}}/-/releases/v{{ .version }}">{{ .version }}</a></td>
+            <td>{{ dateFormat "Jan 2, 2006" .releaseDate }}</td>
+            <td>
+              <a href="{{ $.Site.Params.gitlabLink}}/-/archive/v{{ .version }}/peertube-viewer-rs{{ .version }}.tar.gz">Source</a>
+              <a href="/releases/linux/peertube-viewer-rs-v{{ .version }}.tar.gz">Linux binary</a>
+            </td>
+            <td><a href="https://docs.peertube-viewer.com/changelog.html#{{ .versionNoDot }}">Changelog</a></td>
+          </tr>
+        {{ end }}
+        </tbody>
+        </table>
+    </div>
+  </div>
+</div>
+{{ end }}

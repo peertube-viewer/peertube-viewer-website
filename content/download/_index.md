@@ -1,6 +1,5 @@
 ---
 title: Downloads
-subtitle: Lightweight cli browser for peertube 
 ---
 
 Documentation
@@ -30,11 +29,10 @@ The binary releases contain the executable `peertube-viewer-rs` as well as the m
 You can just run the binary from the command line.
 For a complete install, `peertube-viewer-rs` should be accessible via the [`PATH`](https://en.wikipedia.org/wiki/PATH_(variable)), the completions can be added to their respective emplacements to have nice auto completion in the shell (`/etc/bash_completion.d/peertube-viewer-rs.bash` for bash on Arch Linux)
 
-
 Latest release: 1.7.3
 ---------------------
 
 Released on 03-12-2020
 
-- [Linux binary](/releases/peertube-viewer-rs-v1.7.3.tar.gz)
+- [Linux binary](/releases/linux/peertube-viewer-rs-v1.7.3.tar.gz)
 - [Source code](https://gitlab.com/peertube-viewer/peertube-viewer-rs/-/archive/v1.7.3/peertube-viewer-rs-v1.7.3.tar.gz)
