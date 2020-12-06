@@ -1,6 +1,7 @@
 ---
 title: About peertube-viewer
 subtitle: Lightweight cli browser for peertube 
+type: page
 ---
 
 **peertube-viewer-rs** is a small utility to enable you to browse videos available on any [PeerTube](https://joinpeertube.org) instances, without having to launch a web browser.

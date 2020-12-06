@@ -1,7 +1,5 @@
 ---
 title: Releases
 layout: releases
+type: page
 ---
-
-
-dsqsqd

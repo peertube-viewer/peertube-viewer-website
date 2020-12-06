@@ -1,6 +1,7 @@
 ---
 title: Download
 layout: download
+type: page
 ---
 
 Documentation
