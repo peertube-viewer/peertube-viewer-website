@@ -1,4 +1,9 @@
 [[releases]]
+    version = "1.8.0"
+    versionNoDot = "180"
+    releaseDate = "2021-01-31"
+
+[[releases]]
     version = "1.7.3"
     versionNoDot = "173"
     releaseDate = "2020-12-03"
