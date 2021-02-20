@@ -1,4 +1,4 @@
-**peertube-viewer-rs** is a small utility to enable you to browse videos available on any [PeerTube](https://joinpeertube.org) instances, without having to launch a web browser.
+**peertube-viewer-rs** is a small utility to enable you to browse videos available on any [PeerTube](https://joinpeertube.org) instance, without having to launch a web browser.
 It is heavily inspired by [youtube-viewer](https://github.com/trizen/youtube-viewer).
 
 It is [Free/Libre software](https://en.wikipedia.org/wiki/Free_software) available under the [MIT license](https://en.wikipedia.org/wiki/MIT_License). The source code is [available on GitLab](https://gitlab.com/peertube-viewer/peertube-viewer-rs)
