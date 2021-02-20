@@ -1,6 +1,7 @@
 ---
 title: "PeerTube viewer and WebTorrent"
 author: Sosthène Guédon
+type: post
 date: 2021-02-20
 ---
 

@@ -1,5 +1,7 @@
 <span class="post-meta">
-  {{ .Site.Params.dateformat | .Date.Format | }}
   posted on
+  {{ .Site.Params.dateformat | .Date.Format | }}
+  by
+  {{ .Params.author }}
 </span>
 
