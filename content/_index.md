@@ -3,6 +3,9 @@ It is heavily inspired by [youtube-viewer](https://github.com/trizen/youtube-vie
 
 It is [Free/Libre software](https://en.wikipedia.org/wiki/Free_software) available under the [MIT license](https://en.wikipedia.org/wiki/MIT_License). The source code is [available on GitLab](https://gitlab.com/peertube-viewer/peertube-viewer-rs)
 
+
 <video autoplay controls loop style="max-width:100%;max-height:100%">
     <source src="/videos/ptrs-demo.mp4">
 </video>
+
+**:warning: Using PeerTube Viewer might be harmful to Peertube Hosts. [Learn more](/posts/2021-02-20-peertube-viewer-and-webtorrent/#what-this-means-for-peertube-viewer)**

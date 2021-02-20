@@ -31,7 +31,7 @@ As of today, PeerTube viewer relies either on:
 1. The [youtube-dl](https://duckduckgo.com/?t=ffab&q=youtube-dl&ia=web) [integration for mpv](https://mpv.io/manual/stable/#options-ytdl)
 2. Directly streaming the video from the server (with the `--use-raw-urls` flag)
 
-As a result, PeerTube viewer isn't capable of using the WebTorrent capabilities of PeerTube, so using PeerTube viewer might be harming the hosts of the videos you are watching.
+As a result, PeerTube viewer isn't capable of using the WebTorrent capabilities of PeerTube, so using PeerTube viewer might be harming the hosts of the videos you are watching, by using more of their bandwidth than necessary.
 
 How to temporarily improve the situation
 ----------------------------------------

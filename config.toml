@@ -9,6 +9,7 @@ theme = "peertube-viewer.com"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
+enableEmoji=true
 
 [Params]
   subtitle = "Lightweight cli browser for Peertube"
