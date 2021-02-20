@@ -39,11 +39,11 @@ How to temporarily improve the situation
 At term, I would like for PeerTube viewer to be able to work fully with PeerTube's WebTorrent capabilities, but this will require a lot of work.
 For the moment, there are a few solutions:
 
-1. [Setting your browser as the video player](#seting-your-browser-as-the-video-player)
+1. [Setting your browser as the video player](#setting-your-browser-as-the-video-player)
 2. [Using mpv's WebTorrent hook](#using-mpvs-webtorrent-hook)
 3. [Using your browser for live streams](#using-your-browser-for-live-streams)
 
-### Seting your browser as the video player.
+### Setting your browser as the video player.
 
 
 This can be done with the cli argument `--player firefox`, or by adding:
