@@ -39,6 +39,8 @@
               <p class="post-meta">
                   posted on
                   {{ .Site.Params.dateformat | .Date.Format | }}
+                  , by
+                  {{ .Params.author }}
               </p>
               <div class="post-entry">
                 {{ if .Truncated }}

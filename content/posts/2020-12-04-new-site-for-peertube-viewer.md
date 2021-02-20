@@ -1,5 +1,6 @@
 ---
 title: "A New Site for peertube-viewer"
+author: Sosthène Guédon
 date: 2020-12-04
 ---
 
