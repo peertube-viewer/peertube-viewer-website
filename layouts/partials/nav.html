@@ -22,9 +22,15 @@
           </li>
         {{ else }}
           <li>
-            <a title="{{ .Name }}" href="{{ .URL }}">
-                {{ .Name }}
-            </a>
+            {{ if .Params.Icon }}
+              <a title="{{ .Name }}" href="{{ .URL }}" class="{{ .Params.Icon }} fa-stack-1x fa-lg">
+                  {{ .Name }}
+              </a>
+            {{ else }}
+              <a title="{{ .Name }}" href="{{ .URL }}">
+                  {{ .Name }}
+              </a>
+              {{ end }}
           </li>
         {{ end }}
       {{ end }}
