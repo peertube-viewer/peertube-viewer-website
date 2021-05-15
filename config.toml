@@ -16,6 +16,7 @@ enableEmoji=true
   favicon = "peertube-logo.svg"
   dateFormat = "January 2, 2006"
   commit = false
+  rssContent = "posts"
   gitlabLink = "https://gitlab.com/peertube-viewer/peertube-viewer-rs"
   comments = true
 

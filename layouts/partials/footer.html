@@ -15,7 +15,6 @@
               </li>
             {{- end -}}
           {{ end }}
-          {{ if .Site.Params.rss }}
           <li>
             <a href="/{{.Site.Params.rssContent}}/index.xml" title="RSS" type="application/rss+xml">
               <span class="fa-stack fa-lg">
@@ -24,7 +23,6 @@
               </span>
             </a>
           </li>
-          {{ end }}
         </ul>
         <p class="credits copyright text-muted">
             <a href="#top">To the top</a>
