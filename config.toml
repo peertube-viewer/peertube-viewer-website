@@ -5,7 +5,6 @@ publishdir = "public"
 title = "Peertube Viewer"
 
 DefaultContentLanguage = "en"
-theme = "peertube-viewer.com"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
