@@ -13,6 +13,14 @@
               <li><a href="{{ $.Site.Params.gitlabLink}}/-/tree/v{{ .version }}">Source Code</a></li>
             </ul>
             {{ end }}
+
+            <h2>Future releases</h2>
+            The recommended ways to get up to date releases are:
+            <ul>
+              <li><a href="https://aur.archlinux.org/packages/?O=0&SeB=nd&outdated=&SB=n&SO=a&PP=50&K=peertube-viewer-rs">Using one of the two AUR packages</a></li>
+              <li><a href="{{ "/download/index.xml" | absURL }}">Subscribing to the RSS feed</a></li>
+            </ul>
+
             <div class="text-center">
               <a class="btn btn-primary btn-lg" href="/releases">Older releases</a>
             </div>
