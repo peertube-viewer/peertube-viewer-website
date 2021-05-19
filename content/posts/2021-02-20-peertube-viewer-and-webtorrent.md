@@ -55,7 +55,7 @@ command="firefox"
 
 It is understandable that this solution is a bit counter productive given that the goal of PeerTube viewer is to be able to go without a web browser.
 
-#### Using mpv's WebTorrent hook
+### Using mpv's WebTorrent hook
 
 There is a [cli version of WebTorrent](https://github.com/webtorrent/webtorrent-cli) as well as an [mpv hook](https://github.com/noctuid/mpv-webtorrent-hook) (thanks [Alex Kenji](https://gitlab.com/a-kenji) for [telling me about it](https://gitlab.com/peertube-viewer/peertube-viewer-rs/-/issues/30#note_511497042)).
 With this installed, mpv can play a video coming from WebTorrent by just being given a torrent file.
