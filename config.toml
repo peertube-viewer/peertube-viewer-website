@@ -23,6 +23,7 @@ enableEmoji=true
 [Author]
   name = "Guédon Sosthène"
   gitlab = "peertube-viewer"
+  github = "peertube-viewer"
   mail = "dev@peertube.com"
 
 

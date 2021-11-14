@@ -5,6 +5,12 @@ title = "GitLab"
 icon = "fab fa-gitlab"
 
 [[social_icons]]
+id = "github"
+url = "https://github.com/%s"
+title = "GitHub"
+icon = "fab fa-github"
+
+[[social_icons]]
 id = "mail"
 url = "mailto:%s"
 title = "Mail"
