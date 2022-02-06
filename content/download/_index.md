@@ -16,8 +16,8 @@ If available for your distribution, this is the recommended install process.
 
 Currently, peertube-viewer is only available on the [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository) for Arch Linux:
 
-- [peertube-viewer-rs](https://aur.archlinux.org/packages/peertube-viewer-rs-bin/) (Requires compiling)
-- [peertube-viewer-rs-bin](https://aur.archlinux.org/packages/peertube-viewer-rs/)
+- [peertube-viewer-rs](https://aur.archlinux.org/packages/peertube-viewer-rs/) (Requires compiling)
+- [peertube-viewer-rs-bin](https://aur.archlinux.org/packages/peertube-viewer-rs-bin/)
 
 
 Manual install
