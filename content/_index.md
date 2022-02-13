@@ -5,7 +5,8 @@ It is [Free/Libre software](https://en.wikipedia.org/wiki/Free_software) availab
 
 
 <video autoplay controls loop style="max-width:100%;max-height:100%">
-    <source src="/videos/ptrs-demo.mp4">
+    <source src="/videos/ptrs-demo-av1.mp4" type="video/mp4; codecs=av1">
+    <source src="/videos/ptrs-demo.mp4" type="video/mp4">
 </video>
 
 **:warning: Using PeerTube Viewer might be harmful to Peertube Hosts. [Learn more](/posts/2021-02-20-peertube-viewer-and-webtorrent/#what-this-means-for-peertube-viewer)**
