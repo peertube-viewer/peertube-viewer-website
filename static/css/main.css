@@ -131,7 +131,8 @@ img {
 
 .navbar-brand-logo {
   height: 40px;
-  margin: auto;
+  margin-top: 5px;
+  display: block;
 }
 
 /* --- Footer --- */

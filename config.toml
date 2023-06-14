@@ -12,8 +12,8 @@ enableEmoji=true
 
 [Params]
   subtitle = "Lightweight cli browser for Peertube"
-  logo = "peertube-logo.svg"
-  favicon = "peertube-logo.svg"
+  logo = "peertube-viewer-logo.svg"
+  favicon = "peertube-viewer-logo.svg"
   dateFormat = "January 2, 2006"
   commit = false
   rssContent = "posts"
