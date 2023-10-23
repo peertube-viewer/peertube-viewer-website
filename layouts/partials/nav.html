@@ -5,7 +5,7 @@
         <span>{{ .Site.Title }}</span>
       </a>
         {{ if isset .Site.Params "logo" }}
-        <img class="navbar-brand-logo" src="{{ $.Site.Params.logo | relURL }}" alt="{{ $.Site.Title }}"/>
+        <img class="navbar-brand-logo" src="{{ $.Site.Params.logo | relURL }}" alt="{{ $.Site.Title }}" height="40" width="40"/>
         {{ end }}
     </div>
 
