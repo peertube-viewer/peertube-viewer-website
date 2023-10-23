@@ -4,7 +4,7 @@ It is heavily inspired by [youtube-viewer](https://github.com/trizen/youtube-vie
 It is [Free/Libre software](https://en.wikipedia.org/wiki/Free_software) available under the [AGPLv3 license](https://en.wikipedia.org/wiki/Affero_General_Public_License). The source code is [available on GitLab](https://gitlab.com/peertube-viewer/peertube-viewer-rs)
 
 
-<video autoplay controls loop style="max-width:100%;max-height:100%">
+<video autoplay muted controls loop style="width:100%; aspect-ratio: 16-9">
     <source src="/videos/ptrs-demo-av1.mp4" type="video/mp4; codecs=av1">
     <source src="/videos/ptrs-demo.mp4" type="video/mp4">
 </video>
