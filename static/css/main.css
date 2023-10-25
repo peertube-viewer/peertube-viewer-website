@@ -22,6 +22,10 @@ p {
   margin: 30px 0;
 }
 
+a {
+  text-decoration: underline;
+}
+
 p a {
   /* text-decoration: underline */
   color: #008AFF;
@@ -196,13 +200,11 @@ footer .theme-by {
 }
 
 .post-preview a {
-  text-decoration: none;
   color: #404040;
 }
 
 .post-preview a:focus,
 .post-preview a:hover {
-  text-decoration: none;
   color: #0085a1;
 }
 
@@ -228,7 +230,6 @@ footer .theme-by {
 .post-preview .post-meta a,
 .post-heading .post-meta a {
   color: #404040;
-  text-decoration: none;
 }
 
 .post-preview .post-entry {
@@ -284,7 +285,6 @@ footer .theme-by {
 
 .blog-tags a {
   color: #008AFF;
-  text-decoration: none;
   padding: 0px 5px;
 }
 
@@ -324,7 +324,7 @@ footer .theme-by {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 80px 0 20px;
+  margin: 40px 0;
   position: relative;
 }
 
@@ -418,7 +418,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .intro-header {
-    margin-top: 130px;
+    margin-top: 60px;
   }
 
   .intro-header.big-img {

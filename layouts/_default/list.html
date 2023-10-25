@@ -45,6 +45,7 @@
               <div class="post-entry">
                 {{ if .Truncated }}
                   {{ .Summary }}
+                  <br>
                   <a href="{{ .Permalink }}" class="post-read-more">[read more]</a>
                 {{ else }}
                   {{ .Content }}
