@@ -43,7 +43,7 @@
       <item>
         <title> Release {{ .version }} of peertube-viewer-rs</title>
         <link>{{ $permalink }}</link>
-        <pubDate>{{ dateFormat "Mon, 02 Jan 2006" .releaseDate | safeHTML }}</pubDate>
+        <pubDate>{{ dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" .releaseDate | safeHTML }}</pubDate>
         {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
         <guid>{{ printf "%s#%s" ("releases" | absURL)  .versionNoDot }}</guid>
         <description>peertube-viewer-rs {{ .version }} is out! Go &lt;a href="{{ $permalink }}"&gt;download it now&lt;/a&gt;!</description>
