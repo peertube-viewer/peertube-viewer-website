@@ -5,7 +5,7 @@
         <ul class="list-inline text-center footer-links">
           {{ range .Site.Data.social.social_icons }}
             <li>
-              <a href="{{ printf .url (index $.Site.Params.Author .id) }}" title="{{ .title }}">
+              <a href="{{ .url }}" title="{{ .title }}">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
