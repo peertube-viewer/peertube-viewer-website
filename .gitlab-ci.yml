@@ -6,17 +6,3 @@ test:
   - hugo
   except:
   - main
-
-pages:
-  variables:
-    COMPRESS_REGEX: '.*\.\(htm\|html\|txt\|text\|js\|css\|xml\|svg\|ttf\)$'
-  script:
-  - hugo
-  - apk add brotli
-  - find public -type f -regex "$COMPRESS_REGEX" -exec gzip -9 -f -k {} \;
-  - find public -type f -regex "$COMPRESS_REGEX" -exec brotli -9 -f -k {} \;
-  artifacts:
-    paths:
-    - public
-  only:
-  - main
