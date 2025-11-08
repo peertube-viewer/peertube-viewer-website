@@ -9,9 +9,3 @@ id = "github"
 url = "https://github.com/peertube-viewer"
 title = "GitHub"
 icon = "fab fa-github"
-
-[[social_icons]]
-id = "mail"
-url = "mailto:dev@peertube-viewer.com"
-title = "Mail"
-icon = "fas fa-envelope"

@@ -7,7 +7,7 @@ type: page
 Documentation
 =============
 
-This page contains information on installation and downloads for peertube-viewer-rs. To learn how to use it, go to [the documentation](https://docs.peertube-viewer.com).
+This page contains information on installation and downloads for peertube-viewer-rs. To learn how to use it, go to [the documentation](https://docs.peertube-viewer.sgued.fr).
 
 Via package managers
 ====================

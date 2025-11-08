@@ -1,4 +1,4 @@
-baseurl = "https://peertube-viewer.com"
+baseurl = "https://peertube-viewer.sgued.fr"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
@@ -24,7 +24,6 @@ enableEmoji=true
   name = "Guédon Sosthène"
   gitlab = "peertube-viewer"
   github = "peertube-viewer"
-  mail = "dev@peertube.com"
 
 
 [[menu.main]]
@@ -47,7 +46,7 @@ enableEmoji=true
 
 [[menu.main]]
     name = "Documentation"
-    url = "https://docs.peertube-viewer.com"
+    url = "https://docs.peertube-viewer.sgued.fr"
     weight = 4
     params = { icon = "fa fa-book" }
 

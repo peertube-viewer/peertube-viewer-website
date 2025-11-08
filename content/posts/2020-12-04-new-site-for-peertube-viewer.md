@@ -5,7 +5,7 @@ author: Sosthène Guédon
 date: 2020-12-04
 ---
 
-In addition to the docs, which can still be found at [docs.peertube-viewer.com](https://docs.peertube-viewer.com), peertube-viewer now has a new website.
+In addition to the docs, which can still be found at [docs.peertube-viewer.sgued.fr](https://docs.peertube-viewer.sgued.fr), peertube-viewer now has a new website.
 
 This website will host the releases binaries and news about peertube-viewer. An rss feed is available [here](/posts/index.xml).
 
