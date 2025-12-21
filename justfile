@@ -1,6 +1,7 @@
-export COMPRESS_REGEX := '.*\.\(htm\|html\|json\|txt\|text\|js\|css\|xml\|svg\|ttf\)$'
 build:
     hugo
-    find public -type f -regex "$COMPRESS_REGEX" -exec gzip -9 -f -k {} \;
-    find public -type f -regex "$COMPRESS_REGEX" -exec brotli -q 11 -f -k {} \;
+    echo -n "default-src 'self'; img-src 'self'; style-src 'self';" > public/csp.txt
+
+lychee: build
+    lychee --base-url https://peertube-viewer.sgued.fr public
 

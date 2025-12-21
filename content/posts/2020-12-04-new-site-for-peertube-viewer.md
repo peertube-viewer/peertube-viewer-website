@@ -19,4 +19,4 @@ Here are a few useful links within the site:
 The site itself is generated using [hugo](https://gohugo.io/), and is on a [public gitlab repo](https://gitlab.com/peertube-viewer/peertube-viewer-website).
 The theme is a heavily trimmed down version of [Beautiful Hugo](https://github.com/halogenica/beautifulhugo), with all JS removed, and a lot of updates on the look.
 
-Don't hesitate to improve it by making a Merge Request to [the repo of the website](https://gitlab.com/peertube-viewer/peertube-viewer-websithttps://gitlab.com/peertube-viewer/peertube-viewer-website)
+Don't hesitate to improve it by making a Merge Request to [the repo of the website](https://gitlab.com/peertube-viewer/peertube-viewer-website)
