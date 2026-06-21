@@ -16,7 +16,7 @@
     <title>Peertube Viewer releases</title>
     <link>{{ .Permalink }}</link>
     <description>All peertube-viewer releases</description>
-    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
+    <generator>Hugo -- gohugo.io</generator>{{ with .Site.Language.Locale}}
     <language>{{.}}</language>{{end}}{{ with .Site.Params.Author.email }}
     <managingEditor>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Params.Author.email }}
     <webMaster>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
@@ -26,7 +26,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
 
-    {{ with index .Site.Data.releases.releases 0 }}
+    {{ with index hugo.Data.releases.releases 0 }}
       {{ $permalink := (printf "%s#%s" ("releases" | absURL)  .versionNoDot) }}
       <item>
         <title> Release {{ .version }} of peertube-viewer-rs</title>
@@ -38,7 +38,7 @@
       </item>
     {{ end }}
 
-    {{ range after 1 .Site.Data.releases.releases}}
+    {{ range after 1 hugo.Data.releases.releases}}
     {{ $permalink := (printf "%s#%s" ("releases" | absURL)  .versionNoDot) }}
       <item>
         <title> Release {{ .version }} of peertube-viewer-rs</title>

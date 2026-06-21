@@ -12,7 +12,7 @@
           </tr>
         </thead>
         <tbody>
-        {{ range .Site.Data.releases.releases}}
+        {{ range hugo.Data.releases.releases}}
           <tr id="{{ .versionNoDot }}">
             <td><a href="{{ $.Site.Params.gitlabLink}}/-/releases/v{{ .version }}">{{ .version }}</a></td>
             <td>{{ dateFormat "Jan 2, 2006" .releaseDate }}</td>

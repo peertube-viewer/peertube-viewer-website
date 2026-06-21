@@ -5,7 +5,7 @@
         {{ with .Content }}
           <div class="well">
             {{.}}
-            {{ with index $.Site.Data.releases.releases 0 }}
+            {{ with index hugo.Data.releases.releases 0 }}
             <h2>Latest release: {{ .version }}</h2>
             Release date: {{ dateFormat $.Site.Params.dateFormat .releaseDate }}
             <ul>
